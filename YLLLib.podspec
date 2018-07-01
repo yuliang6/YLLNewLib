@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "YLLLib"
-  s.version = "1.2.0"
+  s.version = "1.3.0"
   s.summary = "https://github.com/yuliang6/YLLNewLib"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"yuliangliang"=>"yuliang1345@163.com"}
