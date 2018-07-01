@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "YLLLib"
-  s.version = "0.3.0"
+  s.version = "1.0.0"
   s.summary = "https://github.com/yuliang6/YLLNewLib"
   s.license = {"type"=>"MIT", "file"=>"LICENSE"}
   s.authors = {"yuliangliang"=>"yuliang1345@163.com"}
@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'ios/YLLLib.framework'
+  s.public_header_files = 'YLLNewLib/header/**/*'
   s.dependency 'SVProgressHUD'
 end
